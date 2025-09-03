@@ -1,1 +1,3 @@
-print("Tämä on tehtävä 2")
+name = input("Anna nimesi: ")
+
+print(f"Tervehdys, {name}!")
