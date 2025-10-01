@@ -18,3 +18,5 @@ kilot = int(massa_grammoina // 1000)
 grammat = massa_grammoina % 1000
 
 print(f"{kilot} kilogrammaa ja {grammat:.2f} grammaa.")
+
+

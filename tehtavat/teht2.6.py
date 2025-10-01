@@ -7,4 +7,7 @@ num3 = random.randint(1,9)
 print("Koodi on:", num1, num2, num3)
 
 #Toinen tapa
-print("Koodi on:", random.randint(1,6), random.randint(1,6), random.randint(1,6), random.randint(1,6))
+print("Koodi on:", random.randint(1,6),
+      random.randint(1,6), random.randint(1,6),
+      random.randint(1,6))
+

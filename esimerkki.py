@@ -1,10 +1,14 @@
-pituus = float(input("Anna pituutesi: "))
-paino = float(input("Anna painosi: "))
+a = True
+b = False
 
-#Muuttuja jossa lasku suoritetaan
-bmi = paino / (pituus / 100) ** 2
+if a and b:
+    print("Molemmat on totta")
 
-print("Pituus-paino-indeksisi on", bmi)
-print(f"Pituus-paino-indeksisi on {bmi:.2f}")
+if a or b:
+    print("Toinen tai molemmat on totta")
+
+if not a and b:
+    print("Kumpikaan ei ole totta")
+
 
 

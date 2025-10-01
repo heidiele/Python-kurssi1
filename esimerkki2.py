@@ -1,4 +1,9 @@
-import math
+raha = float(input("Kuinka paljon sinulla on rahaa? "))
 
-print(f"{math.pi:.5f}")
+if raha >= 5:
+    print("Voit ostaa kahvin!")
+else:
+    print("Raha ei riitä kahviin.")
+
+print("Kiitos ja hei!")
 
